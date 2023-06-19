@@ -7,7 +7,7 @@ const daysEl = document.querySelector('[data-days]');
 const hoursEl = document.querySelector('[data-hours]');
 const minutesEl = document.querySelector('[data-minutes]');
 const secEl = document.querySelector('[data-seconds]');
-let selectedData;
+let selectedDate;
 let timerId;
 
 startBtnEl.disabled = true;
